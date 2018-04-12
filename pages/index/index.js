@@ -20,7 +20,8 @@ Page({
   data: {
     nowTemp: '14°',
     nowWeather: '多云',
-    nowWeatherBackground: ''
+    nowWeatherBackground: '',
+    forecast: [1,2,3,4,5,6,7,8,9]
   },
   onPullDownRefresh() {
     this.getNow(()=>{
